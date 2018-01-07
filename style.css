@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Satisfy|Indie+Flower|Shadows+Into+Light');
+body {
+    background-color: #a6b525 !important;
+    margin-top: 3em !important;
+}
+
+.well {
+    background-color: rgba(245, 245, 245, 0.4) !important;
+    border-radius: 2em !important;
+}
+
+.box {
+    position: relative;
+}
+
+#newQuote {
+    opacity: 0.6;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    /* position: absolute; */
+    top: 260px;
+    right: 0;
+    left: 0;
+}
+
+#newQuote:hover {
+    color: #1b95e0;
+}
+
+
+/*Twitter Icon Style*/
+
+#twitterShare {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+}
+
+#twitterShare:hover {
+    color: #1b95e0;
+}
+
+
+/*Icon Style*/
+
+.icon {
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    opacity: 0.6;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.icon:hover .fa-chevron-circle-right {
+    font-size: 4em !important;
+}
+
+
+/*font style*/
+
+#textQuote {
+    font-family: Barrio;
+}
+
+#author {
+    font-family: Shadows Into Light;
+    font-size: 1.5em;
+}
+
+#footerText {
+    font-family: Satisfy;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media (max-width: 575px) {}
+
+@media screen and (max-width: 480px) {}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <title>Quotes Machine</title>
+</head>
+
+<body>
+    <div><span><i class="wi wi-night-sleet"></i></span></div>
+    <div class="container">
+        <!--Twitter Icon-->
+        <div align="center">
+            <span>
+             <i class="btn fa fa-twitter fa-5x" title="Shire this quote!" id="twitterShare"></i>
+          </span>
+
+        </div>
+
+        <!--Quotes div-->
+        <div class="row box">
+            <div class="well col-xs-offset-3 col-xs-6">
+                <blockquote>
+                    <i class="fa fa-quote-left"></i>
+                    <span id="textQuote">{Quote}</span>
+                    <i class="fa fa-quote-right"></i>
+                    <div class="">
+                        <small class="pull-right">
+                          <cite id="author">{Author}</cite>
+                        </small>
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="row">
+            <div align="center">
+                <div>
+                    <span><i class="fa fa-chevron-circle-right fa-5x icon" id="newQuote" title="Next Quote"></i></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Container End-->
+
+    <!--Footer-->
+    <footer class="footer " align="center">
+        <div class="container">
+            <span id="footerText">developed by Saad HARAKAT for free code camp</span>
+            <ul class="list-inline">
+                <li>
+                    <a href="https://twitter.com/saadharakat" class="fa fa-twitter" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/Sadhr" class="fa fa-github" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.com/sadhr" class="fa fa-fire" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://codepen.io/SadHR/" class="fa fa-codepen" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/saad-harakat-b1a99080/" class="fa fa-linkedin" target=_blank></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
